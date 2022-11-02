@@ -20,7 +20,7 @@ value属性に指定された値がボタン上に表示されます。
 
 
 
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -50,7 +50,7 @@ value属性に指定された値がボタン上に表示されます。
       <?php echo $_POST["name"]; ?>
       <div class="form-item">■ 内容</div>
       <!-- bodyを受け取りechoしましょう -->
-      <?php echo $_POST("body"); ?>
+      <?php echo $_POST["body"]; ?>
     </div>
 
   </div>
@@ -68,4 +68,4 @@ value属性に指定された値がボタン上に表示されます。
     </div>
   </div>
 </body>
-</html>
+</html>l>
